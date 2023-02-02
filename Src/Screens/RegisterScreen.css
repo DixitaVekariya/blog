@@ -1,0 +1,93 @@
+body{
+    background-color: #999999;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center
+}
+
+.formContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.registerText {
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.FirstnameContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    border-color: lightgray;
+    height: 35px;
+    font-size: 15px;
+    outline-color: #3333cc;
+    outline-width: 3px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #3333cc;
+    background-color: #cccccc;
+    color: #000033;
+    margin: 10px;
+    /* padding: 0px 15px 0px 15px; */
+}
+
+.registerContainer {
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.registerBtn {
+    text-align: center;
+    padding: 12px 185px 12px 185px;
+    background: #000033 ;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 19px;
+    /* height: 40px; */
+    cursor: pointer;
+}
+.registerBtn:hover{
+    background-color:    #333366;
+}
+.loginContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.alreadyText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.loginbtn{
+    border: none;
+    color: #000033;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.loginbtn:hover{
+    color: #333366;
+}

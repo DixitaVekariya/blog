@@ -1,0 +1,90 @@
+body {
+    background-color: #999999;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createBlogMainContainer {
+    margin-top: 90px;
+    padding: 0px 20px 20px 20px;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+.createTextContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h1Text {
+    text-align: center;
+    margin-top: 10px;
+    color: #330066;
+    font-size: 35px;
+}
+
+.removeBtn {
+    margin-top: 10px;
+    margin-left: 400px;
+    width: 30px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.fstInput {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #3333cc;
+    background-color: #8eaae3;
+    color: #000033;
+}
+
+.sndInput {
+    padding: 10px;
+    margin-top: 20px;
+    width: 430px;
+    height: 200px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #8eaae3;
+    border-color: #3333cc;
+    color: #000033;
+}
+.addBtnContainer{
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+}
+.addBtn {
+    margin-top: 20px;
+    padding: 17px 51px 17px 51px;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+    background-color: #000033;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 20px;
+    width: 140px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: #333366;
+}

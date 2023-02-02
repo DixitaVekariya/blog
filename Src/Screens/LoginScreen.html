@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <link rel="stylesheet" href="/Src/Screens/LoginScreen.css">
+    <script type="text/javascript" language="javascript" src="./LoginScreen.js" defer></script>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="formContainer">
+            <div>
+                <h1 class="welcomeText">Welcome Back!</h1>
+                <h3 class="secondText">Log in to your account</h3>
+            </div>
+            <form id="myForm" method="get">
+                <div class="inputContainer">
+                    <input class="input" id="newEmail" type="email" placeholder="Email Address" required>
+                    <input class="input" id="newPassword" type="password" placeholder="Password" autocomplete="on"
+                        required>
+                    <div class="rememberContainer">
+                        <input class="checkbox" type="checkbox" id="remember" name="remember">
+                        <label for="remember" class="rememberText">Remember me</label>
+                        <div class="forgotContainer">
+                            <a href="/Src/Screens/RegisterScreen.html" class="forgotText">Forgot your password?</a>
+                        </div>
+                    </div>
+                    <div class="loginContainer">
+                        <button class="loginBtn" id="saveForm">Login</button>
+                    </div>
+                </div>
+            </form>
+            <div class="registerContainer">
+                <p class="alreadyText">Or not have account
+                    <a class="registerbtn" href="/Src/Screens/RegisterScreen.html">Register</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

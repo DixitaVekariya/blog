@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>`
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="/Src/Screens/RegisterScreen.css">
+    <script type="text/javascript" language="javascript" src="./RegisterScreen.js" defer></script>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="formContainer">
+            <div>
+                <h1 class="registerText">Register</h1>
+                <h3 class="secondText">Please add your details to register with us</h3>
+            </div>
+            <form  id="myForm" method="get">
+                <div class="inputContainer">
+                    <div class="FirstnameContainer">
+                        <input class="input" id="firstName" type="text" placeholder="First name" required>
+                        <input class="input" id="lastName" type="text" placeholder="Last name" required>
+                    </div>
+                    <input class="input" id="newEmail" type="email" placeholder="Email Address" required>
+                    <input class="input" id="newPassword" type="password" placeholder="Password" autocomplete="on"
+                        required>
+                    <div class="registerContainer">
+                        <button class="registerBtn"  id="saveForm">Register</button>
+                    </div>
+                </div>
+                <div class="loginContainer">
+                    <p class="alreadyText">or already have an account
+                        <a class="loginbtn" href="/Src/Screens/LoginScreen.html">Login</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

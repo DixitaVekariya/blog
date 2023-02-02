@@ -1,0 +1,117 @@
+body{
+    background-color: #999999;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center
+}
+
+.formContainer { 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcomeText {
+    color: #202086;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondText {
+    color: #202086;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.FirstnameContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    margin-top: 20px;
+    height: 35px;
+    font-size: 15px;
+    outline-color: #3333cc;
+    outline-width: 3px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #3333cc;
+    background-color: #cccccc;
+    color: #000033;
+}
+.rememberContainer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+.rememberText{
+    margin-left: 3px;
+    font-size: 19px;
+}
+.forgotContainer{
+    margin-left: 61px;
+}
+.forgotText{
+    color: #202086;
+    text-decoration: none;
+    font-size: 19px;
+}
+.forgotText:hover{
+    color: #3333cc;
+}
+
+.loginContainer {
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.loginBtn {
+    text-align: center;
+    padding: 12px 160px 12px 160px;
+    background: #000033;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 19px;
+    /* height: 40px; */
+    cursor: pointer;
+}
+.loginBtn:hover{
+    background-color:    #333366;
+}
+.registerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.alreadyText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.registerbtn{
+    border: none;
+    color: #000033;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.registerbtn:hover{
+    color: #333366;
+}
